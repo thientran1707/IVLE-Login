@@ -44,9 +44,14 @@ Below is a sample screenshot using Postman.
 
 Now just store the token and use it in your request.
 
+##What's next?
+As every token has its expire time. You should [validate](https://wiki.nus.edu.sg/display/ivlelapi/Login) the token when necessary. 
+
 ##Disclaim
 The method stated above can be easily found if you understand a little HTTP and with Chrome's developer tool. 
 
 At the time of writing this repo, this method is working perfectly. It may work for a long time but **no guarantee is made**.
 
 The repo should be using for learning and developing purpose only.
+
+This repo is not a good practice in general XD.
