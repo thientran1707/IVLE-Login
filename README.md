@@ -25,7 +25,7 @@ Get your API key, and use this url for login.
 ```
 https://ivle.nus.edu.sg/api/login/?apikey={Your API key}&url=
 ```
-Submit a POST request to the above url, together with the following ```x-www-form-urlencoded``` data:
+Submit a POST request to the above url with header ```Content-Type: application/x-www-form-urlencoded```, and the following data:
 
 | Key  | Value |
 | ------------- | ------------- |
@@ -49,4 +49,4 @@ The method stated above can be easily found if you understand a little HTTP and 
 
 At the time of writing this repo, this method is working perfectly. It may work for a long time but **no guarantee is made**.
 
-The repo should be using for learning and developing purpose, not anything else.
+The repo should be using for learning and developing purpose only.
